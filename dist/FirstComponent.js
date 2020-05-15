@@ -1,4 +1,4 @@
-import React from 'react';
+const React = require("react")
 const style = {
   border: '1px solid pink',
   padding: 20,
@@ -15,4 +15,4 @@ const FirstComponent = ({
   }, children);
 };
 
-export default FirstComponent;
+module.exports = FirstComponent;
